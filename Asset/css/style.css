@@ -1,0 +1,161 @@
+@charset "UTF8";
+
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+.head
+{
+    background-color: rgb(0, 0, 0);
+    color : rgb(255, 255, 255);
+    height: 90px;
+}
+
+.head-Logo
+{
+    float: left;
+    font-size: 36px;
+    padding: 15px 20px;
+}
+
+.head-List li
+{
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    padding: 33px 70px;
+}
+
+.explanation
+{
+    font-size: 20px;
+    float: left;
+}
+
+.explanation img
+{
+    float: left;
+    height: 260px;
+}
+
+.explanation a
+{
+  white-space: nowrap;    /*自動改行の無効*/ 
+  display: inline-block;  /*インライン要素⇒上下のpaddingの有効*/
+ 
+  padding: 30px 0px 15px 50px;
+}
+
+.standard
+{
+    display: inline-block;
+    background-color: rgb(255, 95, 95);
+    margin: 90px 0px;
+    height: 70px;
+    width: 500px;
+}
+.standard-Logo
+{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 5px 150px;
+}
+
+.standard-List li
+{
+    font-size: 30px;
+    padding: 30px 0px;
+}
+
+.Ranking-Logo0
+{
+   padding-top: 200px;
+   padding-bottom: 20px;
+}
+
+.Ranking-Logo
+{
+   padding-top: 600px;
+   padding-bottom: 20px;
+}
+
+
+.Ranking-List img
+{
+   float: left;
+   padding-bottom: 20px;
+   height: 350px;
+}
+
+.Ranking-List p
+{
+   padding:20px 0px 0px 50px;
+}
+
+.Ranking-Param
+{
+   float: left;
+}
+
+.Ranking-comment
+{
+    float: left;
+}
+
+.inquiry
+{
+   position: absolute;
+   left: 0; /* 親要素の左端からの距離を0にする */
+   top: 3400px; /* 必要に応じて調整 */
+   padding-left: 30px;
+}
+
+.inquiry-Logo
+{
+    display: inline-block;
+    background-color: #17f498;
+    color: white;
+    margin: 90px 0px;
+    height: 50px;
+    width: 400px;
+    padding: 15px 0px 0px 60px;
+}
+
+input
+{
+   height: 30px;
+   width : 240px;
+}
+
+textarea
+{
+   height: 150px;
+   width : 240px;
+}
+
+
+.footer
+{
+   position: absolute;
+   /* left:8px; 親要素の左端からの距離を0にする */
+   top: 4000px; /* 必要に応じて調整 */
+   background-color: rgb(13, 0, 55);
+   color : rgb(255, 255, 255);
+   height: 140px;
+   width: 1550px;
+}
+
+.footer-list
+{
+    display: inline-block;
+    /* margin: 90px 0px; */
+    height: 90px;
+   
+}
+
+.footer-list li
+{
+    list-style: none;
+}
